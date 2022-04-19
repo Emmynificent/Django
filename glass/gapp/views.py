@@ -9,3 +9,5 @@ def index(request):
 def web(request):
     return render(request,'gapp/index.html')
 
+def git(request):
+    return HttpResponse('This is a GIT page!')

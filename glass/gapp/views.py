@@ -11,3 +11,7 @@ def web(request):
 
 def git(request):
     return HttpResponse('This is a GIT page!')
+
+
+def home(request):
+    return render(request, 'gapp/home.html')
